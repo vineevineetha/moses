@@ -1,3 +1,4 @@
+#!/bin/sh
 if id $1 &>/dev/null; then
     # Delete the user
    sudo  userdel -r $1

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Use the id command to check if the user exists or not.
+if id $1 &>/dev/null; then
+    echo "User $1 exists."
+else
+    echo "User $1 does not exist."
+fi

@@ -6,7 +6,7 @@
         echo "Argument should be exactly 2"
     else
         echo "Creating user with name $1..."
-        sudo useradd -m -p $(openssl passwd -1 $2) $1
+        sudo useradd -m -p$(openssl passwd -1 $2) $1
 
         if [ $? -eq 0 ]; then
             echo "Successfully created user: $1"
