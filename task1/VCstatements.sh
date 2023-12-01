@@ -1,6 +1,6 @@
 #!/bin/bash
 
-age=18
+age=22
 if [ $age -ge 21 ]; then
    echo "You are an adult."
 
