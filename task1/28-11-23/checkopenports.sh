@@ -18,3 +18,12 @@ done < open_ports.txt
 
 echo "Done."
 
+
+Output:
+Blocking access to port 8080 for specified IP addresses: 192.168.1.2 10.0.0.5
+iptables v1.8.7 (nf_tables): unknown option "--dport"
+Try `iptables -h' or 'iptables --help' for more information.
+iptables v1.8.7 (nf_tables): unknown option "--dport"
+Try `iptables -h' or 'iptables --help' for more information.
+iptables: unrecognized service
+Blocking completed. Rules have been applied.
